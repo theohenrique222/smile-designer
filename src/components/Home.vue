@@ -66,12 +66,5 @@ export default {
 };
 </script>
 <style>
-/* #Home {
-  background-image: url(../assets/bg-lg.png);
-} */
-/* @media (max-width: 640px) {
-  #Home {
-    background-image: url(../assets/bg-sm.png);
-  }
-} */
+
 </style>
