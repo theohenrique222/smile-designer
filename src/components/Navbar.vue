@@ -63,7 +63,7 @@ export default {
         { name: "Sobre", link: "#about" },
         { name: "Trabalhos", link: "#portfolio" },
         { name: "Testemunhos", link: "#testemunials" },
-        { name: "Duvidas", link: "#faq" },
+        { name: "Dúvidas", link: "#faq" },
         { name: "Contato", link: "#contact" },
       ],
       menuOpen: false,

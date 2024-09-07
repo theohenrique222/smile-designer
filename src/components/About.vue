@@ -1,7 +1,7 @@
 <template>
   <div id="about" class="pt-5 pb-5 bg-second-bordo">
     <div class="lg:max-w-6xl max-w-sm m-auto lg:px-0 px-2">
-      <div class="block rounded-lg bg-rose-50">
+      <div class="block rounded-lg bg-rose-50 shadow-2xl shadow-black/50">
         <div class="flex flex-col lg:flex-row items-center">
           <!-- Imagem -->
           <div class="w-full lg:w-6/12 xl:w-4/12 mb-6 lg:mb-0">

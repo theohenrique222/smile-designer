@@ -1,16 +1,19 @@
 <template>
   <div id="contact">
+    <h2 class="mb-12 text-3xl text-center pt-10 font-bold">
+        Fale <u class="text-primary-bordo font-extrabold dark:text-rose-600">Conosco</u>
+      </h2>
     <section class="mb-32">
-      <div class="relative h-[300px] bg-[50%] bg-no-repeat bg-bg-form"></div>
+      <div class="relative h-[300px] bg-[50%] bg-no-repeat bg-bg-form shadow-2xl shadow-black/50"></div>
       <div class="px-10 md:px-12">
         <div
-          class="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-second-bordo/50 dark:shadow-black/20 md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]"
+        class="block rounded-lg px-6 py-12 shadow-2xl shadow-black/50 bg-second-bordo/50  md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]"
         >
-          <div class="flex flex-wrap">
-            <div
-              class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6"
-            >
-              <form
+        <div class="flex flex-wrap">
+          <div
+          class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6"
+          >
+          <form
                 action="https://formsubmit.co/theodoro222@hotmail.com"
                 method="POST"
                 enctype="text/plain"

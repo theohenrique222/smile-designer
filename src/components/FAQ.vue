@@ -1,7 +1,7 @@
 <template>
   <div id="faq" class="pt-5 pb-5 bg-rose-50">
-    <h1 class="mb-12 text-3xl font-bold text-center">Duvidas Frequentes</h1>
-    <div class="max-w-7xl m-auto bg-gray-50 p-10">
+    <h1 class="mb-12 text-3xl font-bold text-center">Algumas <u class="text-primary-bordo font-extrabold dark:text-rose-600">dúvidas frequentes</u></h1>
+    <div class="max-w-7xl m-auto bg-gray-50 shadow-2xl shadow-black/50 p-10">
       <ol
         v-for="doubt in doubts"
         :key="doubt.id"
@@ -14,7 +14,7 @@
             ></div>
           </div>
           <div class="ms-4">
-            <h4 class="mb-1.5 text-2xl font-bold">{{ doubt.title }}</h4>
+            <h4 class="mb-1.5 text-xl font-bold">{{ doubt.title }}</h4>
             <p class="text-xl font-light text-black">
               {{ doubt.content }}
             </p>
@@ -32,19 +32,19 @@ export default {
       doubts: [
         {
           id: 1,
-          title: "Duvidas frequentes 1",
+          title: "Dúvidas frequentes 1",
           content:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis ollis. Duis sagittis ligula in sodales vehicula.",
         },
         {
           id: 2,
-          title: "Duvidas frequentes 2",
+          title: "Dúvidas frequentes 2",
           content:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis ollis. Duis sagittis ligula in sodales vehicula.",
         },
         {
           id: 3,
-          title: "Duvidas frequentes 3",
+          title: "Dúvidas frequentes 3",
           content:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis ollis. Duis sagittis ligula in sodales vehicula.",
         },
