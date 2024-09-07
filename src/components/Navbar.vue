@@ -56,7 +56,7 @@
 export default {
   data() {
     return {
-      logo: "./logo3.png",
+      logo: "./logo.png",
       alt: "Logo",
       items_menu: [
         { name: "Início", link: "#home" },

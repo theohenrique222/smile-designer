@@ -27,10 +27,16 @@
           </p>
           <h3 class="font-semibold text-xl">
             {{ subtitle_description }}
-        </h3>
-        <div class="w-full max-w-7xl flex lg:text-start text-center m-auto">
-          <Button href="/contact" class="text-xl mt-3"> Fale conosco </Button>
-        </div>
+          </h3>
+          <div class="w-full max-w-7xl flex lg:text-start text-center m-auto">
+            <!-- <Button href="/contact" class="text-xl mt-5"> Fale conosco </Button> -->
+            <a href="#contact"
+              class="inline-block text-white bg-orange-500 px-24 py-3 mt-5 rounded-md hover:bg-orange-800 tracking-wider"
+              type="submit"
+            >
+              Fale conosco
+          </a>
+          </div>
         </div>
       </div>
       <div class="lg:flex lg:flex-col hidden w-full text-end">
@@ -66,5 +72,4 @@ export default {
 };
 </script>
 <style>
-
 </style>
