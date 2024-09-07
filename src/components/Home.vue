@@ -1,7 +1,7 @@
 <template>
   <section
-    id="Home"
-    class="w-full h-screen lg:h-[690px] bg-[url('assets/bg-lg.png')] bg-no-repeat bg-cover text-gray-100"
+    id="home"
+    class="w-full h-[55rem] lg:h-[690px] bg-[url('assets/bg-lg.png')] bg-no-repeat bg-cover text-gray-100"
   >
     <div
       class="lg:flex m-auto lg:pt-0 pt-52 max-w-7xl h-full items-center w-full space-y-3"

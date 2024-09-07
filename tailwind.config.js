@@ -15,7 +15,7 @@ export default {
       },
     extend: {
       colors: {
-        'primary-bordo': '#54192D',
+        'primary-bordo': '#61122a',
         'second-bordo': '#441120'
       }
     },
