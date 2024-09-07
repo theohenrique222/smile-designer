@@ -28,10 +28,10 @@
           <h3 class="font-semibold text-xl">
             {{ subtitle_description }}
           </h3>
-          <div class="w-full max-w-7xl flex lg:text-start text-center m-auto">
+          <div class="w-full max-w-7xl flex lg:justify-start justify-center m-auto">
             <!-- <Button href="/contact" class="text-xl mt-5"> Fale conosco </Button> -->
             <a href="#contact"
-              class="inline-block text-white bg-orange-500 px-24 py-3 mt-5 rounded-md hover:bg-orange-800 tracking-wider"
+              class="inline-block text-white bg-orange-500 px-24 py-3 mt-5 rounded-md shadow-2xl shadow-black/50 hover:bg-orange-800 tracking-wider"
               type="submit"
             >
               Fale conosco

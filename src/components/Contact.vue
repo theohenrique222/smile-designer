@@ -4,10 +4,10 @@
         Fale <u class="text-primary-bordo font-extrabold dark:text-rose-600">Conosco</u>
       </h2>
     <section class="mb-32">
-      <div class="relative h-[300px] bg-[50%] bg-no-repeat bg-bg-form shadow-2xl shadow-black/50"></div>
-      <div class="px-10 md:px-12">
+      <div class="relative h-[300px] bg-[50%] bg-no-repeat bg-bg-form"></div>
+      <div class="px-2">
         <div
-        class="block rounded-lg px-6 py-12 shadow-2xl shadow-black/50 bg-second-bordo/50  md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]"
+        class="block max-w-7xl mx-auto rounded-lg px-6 py-12 shadow-2xl shadow-black/50 bg-second-bordo/50  md:py-16 md:px-12 -mt-[100px] backdrop-blur-2xl"
         >
         <div class="flex flex-wrap">
           <div
@@ -52,7 +52,7 @@
                 </div>
 
                 <button
-                  class="inline-block w-full text-white bg-orange-500 px-10 p-3 rounded-md hover:bg-orange-800 tracking-wider"
+                  class="inline-block w-full text-white bg-orange-500 px-10 p-3 rounded-md hover:bg-orange-800 tracking-wider shadow-2xl shadow-black/50"
                   type="submit"
                 >
                   Enviar Mensagem
@@ -76,10 +76,10 @@
                       ></a>
                     </div>
                     <div class="ml-6 grow">
-                      <p class="mb-2 font-bold dark:text-white">
+                      <p class="mb-2 text-sm font-bold dark:text-white">
                         {{ card.ico_title }}
                       </p>
-                      <p class="text-neutral-500 dark:text-neutral-200">
+                      <p class="text-neutral-500 text-sm dark:text-neutral-200">
                         {{ card.ico_content }}
                       </p>
                     </div>

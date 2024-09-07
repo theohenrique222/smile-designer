@@ -11,7 +11,7 @@ export default {
     backgroundImage: {
         'bg-lg': "url('src/assets/bg-lg.png')",
         'bg-sm': "url('src/assets/bg-sm.png')",
-        'bg-form': "url('src/assets/bg-form.png')",
+        'bg-form': "url('assets/bg-form.png')",
       },
     extend: {
       colors: {
