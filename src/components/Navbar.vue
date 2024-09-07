@@ -1,8 +1,8 @@
 <template>
   <nav
-    class="bg-black/70 backdrop-blur text-white fixed top-0 left-0 right-0 p-2 z-50 border-b-2 shadow-2xl shadow-black border-gray-500"
+    class="bg-black/70 backdrop-blur text-white fixed top-0 left-0 right-0 p-1 z-50 border-b-2 shadow-2xl shadow-black border-gray-500"
   >
-    <div class="container mx-auto flex justify-between items-center">
+    <div class="max-w-7xl px-3 w-full mx-auto flex justify-between items-center">
 
       <div class="flex space-x-3 items-center cursor-pointer">
         <img class="w-8" :src="logo" :alt="alt" />
@@ -44,7 +44,7 @@
       <a
         v-for="item in items_menu"
         :key="item.id"
-        :href="item.route_to"
+        :href="item.link"
         class="block px-4 py-2 hover:text-orange-color"
         >{{ item.name }}</a
       >
@@ -76,4 +76,3 @@ export default {
   },
 };
 </script>
-  
